@@ -182,7 +182,7 @@ async def generate_code(ctx, language: str, *, description: str):
         except Exception as e:
             await ctx.send(f"Error: {str(e)}")
 
-@bot.command(name = 'help')
+bot.command(name = 'info')
 async def help_command(ctx):
     embed = discord.Embed(
         title = "Script Syndicate Ai",
