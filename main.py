@@ -6,7 +6,7 @@ import asyncio
 import os
 
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', 'AIzaSyCfMeYqaDI98X0l8osY_EqQhV6S29TWYpc')
-DISCORD_TOKEN = os.getenv('DISCORD_TOKEN', 'MTQzMzE0MTQ2MzIxODI2MjAxNg.GaA3hX.HUv5SC5wT276dhHIzLHIvTZ1kBI_HeITMS3P0A')
+DISCORD_TOKEN ')
 genai.configure(api_key = GEMINI_API_KEY)
 
 intents = discord.Intents.default()
